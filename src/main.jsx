@@ -15,7 +15,9 @@ import JobPostings from "./Components/JobPostings.jsx";
 import News from "./Components/News.jsx";
 import StudyGroups from "./Components/StudyGroups.jsx";
 import Tutoring from "./Components/Tutoring.jsx"; 
-
+import Contact from "./Extra/Contact.jsx";
+import PrivacyPolicy from "./Extra/PrivacyPolicy.jsx";
+import Terms from "./Extra/Terms.jsx"
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,18 @@ const router = createBrowserRouter([
          {
         path: "/tutoring",
         element: <Tutoring/>,
+      },
+          {
+        path: "/contact",
+        element: <Contact/>,
+      },
+         {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy/>,
+      },
+         {
+        path: "/terms",
+        element: <Terms/>,
       },
     ]
   },
