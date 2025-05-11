@@ -1,0 +1,39 @@
+
+[
+  {
+    "type": "ClubForum",
+    "image": "https://example.com/images/photography_meetup.jpg",
+    "title": "Photography Club Meetup",
+    "shortDescription": "Join our weekly meetup to share and critique photos.",
+    "date": "16-May-2025",
+    "userImage": "https://example.com/users/photography_officer.jpg",
+    "userName": "Photography Club"
+  },
+  {
+    "type": "ClubForum",
+    "image": "https://example.com/images/robotics_discussion.jpg",
+    "title": "Robotics Project Discussion",
+    "shortDescription": "Discuss your robotics projects and get feedback from peers.",
+    "date": "21-May-2025",
+    "userImage": "https://example.com/users/robotics_lead.jpg",
+    "userName": "Robotics Club"
+  },
+  {
+    "type": "ClubForum",
+    "image": "https://example.com/images/literature_book.jpg",
+    "title": "Book of the Month",
+    "shortDescription": "June's book is '1984' by George Orwell—join the discussion!",
+    "date": "01-June-2025",
+    "userImage": "https://example.com/users/literature_chair.jpg",
+    "userName": "Literature Club"
+  },
+  {
+    "type": "ClubForum",
+    "image": "https://example.com/images/pitch_event.jpg",
+    "title": "Entrepreneurship Pitch Event",
+    "shortDescription": "Pitch your startup ideas and receive mentor feedback.",
+    "date": "25-May-2025",
+    "userImage": "https://example.com/users/entrepreneurship_officer.jpg",
+    "userName": "Entrepreneurship Club"
+  }
+]

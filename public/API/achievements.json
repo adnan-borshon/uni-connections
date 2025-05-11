@@ -1,0 +1,39 @@
+
+[
+  {
+    "type": "Achievement",
+    "image": "https://example.com/images/deans_list.jpg",
+    "title": "Dean's List Award",
+    "shortDescription": "John Doe achieved a GPA of 3.9 and made the Dean's List.",
+    "date": "10-May-2025",
+    "userImage": "https://example.com/users/john_doe.jpg",
+    "userName": "John Doe"
+  },
+  {
+    "type": "Achievement",
+    "image": "https://example.com/images/publication.jpg",
+    "title": "Research Paper Published",
+    "shortDescription": "Professor Ahmad's paper on renewable energy was published.",
+    "date": "05-May-2025",
+    "userImage": "https://example.com/users/prof_ahmad.jpg",
+    "userName": "Prof. Ahmad"
+  },
+  {
+    "type": "Achievement",
+    "image": "https://example.com/images/football_champions.jpg",
+    "title": "Football Team Champions",
+    "shortDescription": "Our football team won the interuniversity championship.",
+    "date": "18-May-2025",
+    "userImage": "https://example.com/users/football_team.jpg",
+    "userName": "Football Team"
+  },
+  {
+    "type": "Achievement",
+    "image": "https://example.com/images/startup_award.jpg",
+    "title": "Startup Competition Winners",
+    "shortDescription": "Team Innovators secured first place in the Startup Challenge.",
+    "date": "12-May-2025",
+    "userImage": "https://example.com/users/team_innovators.jpg",
+    "userName": "Team Innovators"
+  }
+]

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "/uiu-logo.png";
 import hamburger from "/Icons/hamburger.png";
+import SearchBar from "/Icons/search.png";
 function Navbar() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const HamburgerOpen = () => {
@@ -12,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <section className="overflow-hidden ">
+    <section className="overflow-hidden fixed w-full top-0 z-50 bg-white shadow-md">
       {/* whole navbar container */}
       <div className="container flex items-center shrink border-b-2 border-gray-300 pb-2">
         {/* logo */}
@@ -53,28 +54,40 @@ function Navbar() {
           </Link>
         </div>
 
-        {/* Hamburger menu for mobile */}
+        {/* Hamburger menu  for mobile */}
         <div
-          onClick={() => setHamburgerOpen((prev) => !prev)}
-          className="hamburger  hover-effect-normal lg:hidden cursor-pointer flex-1 flex justify-end "
+          className="hamburger hover-effect-normal lg:hidden cursor-pointer flex-1 flex justify-end "
         >
-          <img src={hamburger} alt="" className="w-10 h-7 mr-2 " />
+
+          <img src={hamburger} onClick={() => setHamburgerOpen((prev) => !prev)} className="w-10 h-7 mr-2 " />
         </div>
 
         {/* Search bar and login button section */}
-        <div className="hidden lg:flex gap-6 mx-auto">
+        <div className="hidden lg:flex gap-6 mx-auto ">
+          <div className="border-2 border-gray-300 rounded-xl flex items-center px-1 shadow-md focus-within:border-black">
+            <img src={SearchBar} className=" h-6 w-6 p-[2px] pointer-events-none "/>
           <input
             type="text"
-            className="inputs"
+            className="inputs border-none focus:outline-none"
             placeholder="Search"
           />
+            </div>
           <div className="button hover-effect-normal">Login</div>
         </div>
       </div>
 
       {/* Hamburger menu items which will only show on smaller devices*/}
       {hamburgerOpen && (
+        
         <div className="Navigation flex flex-col gap-2 bg-gray-100 rounded w-full ">
+             <div className="border-2 border-gray-300 border-b-2 flex items-center px-1 py-2  focus-within:border-black">
+            <img src={SearchBar} className=" h-6 w-6 p-[2px] pointer-events-none "/>
+          <input
+            type="text"
+            className="inputs border-none focus:outline-none"
+            placeholder="Search"
+          />
+            </div>
           <Link
             to="/"
             onClick={HamburgerClose}

@@ -1,0 +1,39 @@
+
+[
+  {
+    "type": "Announcement",
+    "image": "https://example.com/images/eid_holiday.jpg",
+    "title": "University Closed for Eid",
+    "shortDescription": "Campus will be closed for Eid celebrations from 20-May-2025 to 23-May-2025.",
+    "date": "14-May-2025",
+    "userImage": "https://example.com/users/admin.jpg",
+    "userName": "University Admin"
+  },
+  {
+    "type": "Announcement",
+    "image": "https://example.com/images/library_hours.jpg",
+    "title": "New Library Hours",
+    "shortDescription": "The library will now be open until midnight on weekdays.",
+    "date": "01-May-2025",
+    "userImage": "https://example.com/users/library_staff.jpg",
+    "userName": "Library Staff"
+  },
+  {
+    "type": "Announcement",
+    "image": "https://example.com/images/covid_guidelines.jpg",
+    "title": "Updated COVID-19 Guidelines",
+    "shortDescription": "Masks are no longer required indoors, but recommended for large gatherings.",
+    "date": "18-May-2025",
+    "userImage": "https://example.com/users/health_office.jpg",
+    "userName": "Health Office"
+  },
+  {
+    "type": "Announcement",
+    "image": "https://example.com/images/scholarship_deadline.jpg",
+    "title": "Scholarship Deadline Extended",
+    "shortDescription": "Apply for the Excellence Scholarship by 01-June-2025.",
+    "date": "20-May-2025",
+    "userImage": "https://example.com/users/scholarship_committee.jpg",
+    "userName": "Scholarship Committee"
+  }
+]

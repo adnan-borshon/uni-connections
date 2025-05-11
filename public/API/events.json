@@ -1,0 +1,39 @@
+
+[
+  {
+    "type": "Event",
+    "image": "https://example.com/images/spring_hackathon.jpg",
+    "title": "Spring Hackathon",
+    "shortDescription": "Join us for a 24-hour coding marathon with prizes for top teams.",
+    "date": "15-May-2025",
+    "userImage": "https://example.com/users/alice_johnson.jpg",
+    "userName": "Alice Johnson"
+  },
+  {
+    "type": "Event",
+    "image": "https://example.com/images/guest_lecture.jpg",
+    "title": "Guest Lecture: Modern AI",
+    "shortDescription": "Professor Maria Lee discusses trends in artificial intelligence.",
+    "date": "22-May-2025",
+    "userImage": "https://example.com/users/maria_lee.jpg",
+    "userName": "Prof. Maria Lee"
+  },
+  {
+    "type": "Event",
+    "image": "https://example.com/images/art_exhibition.jpg",
+    "title": "Art Exhibition 2025",
+    "shortDescription": "Explore student artworks at our annual exhibition.",
+    "date": "28-May-2025",
+    "userImage": "https://example.com/users/arts_society.jpg",
+    "userName": "Arts Society"
+  },
+  {
+    "type": "Event",
+    "image": "https://example.com/images/career_fair.jpg",
+    "title": "University Career Fair",
+    "shortDescription": "Meet top employers and discover internship opportunities.",
+    "date": "30-May-2025",
+    "userImage": "https://example.com/users/career_center.jpg",
+    "userName": "Career Center"
+  }
+]

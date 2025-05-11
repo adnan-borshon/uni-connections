@@ -8,7 +8,7 @@ function Home() {
   return (
    <>
     {/* Hero page of the website */}
-   <section className='HeroPage overflow-hidden lg:mt-20 lg:mb-10'>
+   <section className='HeroPage overflow-hidden mt-30 lg:mb-10'>
     <div className="container shrink lg:grid grid-cols-2 gap-3 p-4"> 
       {/* left side of the hero page */}
       <div className='left pr-10 mb-10'>
@@ -65,6 +65,9 @@ function Home() {
       </div>
     </div>
 
+   </section>
+   <section className='latest-updates'>
+    
    </section>
    </>
   );
